@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "astro dev --host",
     "start": "astro dev",
-    "build": "npm prettier && astro check && astro build",
+    "build": "pnpm prettier && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prettier": "npm exec prettier . --write"
+    "prettier": "pnpm exec prettier . --write"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
