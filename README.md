@@ -1,27 +1,42 @@
+-
+## Google Analytics
 
-# Void-Astro
-
-> 🧑‍🚀 Void-Astro is a minimalistic blog starter template designed for developers and writers who appreciate simplicity and elegance. Built with [Astro](https://astro.build/), this template leverages the power of [TailwindCSS](https://tailwindcss.com/) for styling and comes with a built-in dark mode, making it aesthetically pleasing and easy on the eyes.
-
-## Features
-
-- **Minimalistic Design.**
-- **Dark Mode**
-- **Build with TailwindCSS**: 
-- **Responsive**
+https://analytics.google.com/analytics/web/?authuser=0#/p466535500/reports/intelligenthome
 
 
-## Getting Started
-
-1. Clone the repository:
-```bash
-# Clone the repository
-git clone https://github.com/eAntillon/void-astro.git
-cd void-astro
-#  Install dependencies
-npm i
-#  Start the development server
-npm run dev
+## Tags SEO
 ```
-![frame](https://github.com/user-attachments/assets/0ab4b7b7-6b20-4ae2-8266-aa029a503cf1)
+vulnerability scans
+automated vulnerability scanning
+vulnerability management
+web application security
+network security
+continuous security monitoring
+penetration testing
+compliance security
+cloud security
+vulnerability scanning
+web application vulnerability scanner
+online port scanner
+API security scanner
+penetration testing tools
+compliance vulnerability management (ISO 27001, SOC 2, GDPR)
+external and internal vulnerability scanning
+risk management dashboard
+OWASP ZAP, OpenVAS, Nmap
+cloud vulnerability scanning (AWS, Azure, GCP)
+Nessus Tenable, Netsparker alternative
+free vulnerability scanning tool
+```
 
+## Posts
+
+### Am I secure? First impressions
+
+### Sua seguranca em 3 passos
+  - Eu corro risco ou estou seguro?
+  - Se não, o qual grave?
+  - Não sei resolver - consultoria.
+
+
+### Q&A section

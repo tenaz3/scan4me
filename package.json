@@ -1,13 +1,14 @@
 {
-  "name": "void-astro",
+  "name": "scan4me",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev --host",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "npm prettier && astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prettier": "npm exec prettier . --write"
   },
   "dependencies": {
     "@astrojs/check": "^0.8.1",
@@ -23,5 +24,9 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
