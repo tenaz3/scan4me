@@ -1,5 +1,5 @@
 ---
-title: '4 Scanners para sua Segurança Cibernética'
+title: '4 Scanners para sua segurança Cibernética'
 description: 'Uma visão das últimas inovações de segurança tecnologica'
 pubDate: 'Jan 01 2025'
 heroImage: '/4-scanner-1.webp'

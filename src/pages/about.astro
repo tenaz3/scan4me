@@ -1,5 +1,5 @@
 ---
-import { SITE_DESCRIPTION } from '../consts'
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
 import Layout from '../layouts/BlogPost.astro'
 ---
 
@@ -9,13 +9,12 @@ import Layout from '../layouts/BlogPost.astro'
     pubDate={new Date('Jan 01 2025')}
     heroImage="/about.webp"
 >
-    <h2>Sobre a scan4me</h2>
+    <h2>Sobre a {SITE_TITLE}</h2>
     <p>
-        A scan4me foi criada para ajudar empresas de pequeno e médio porte a
-        encontrar soluções eficazes e acessíveis de segurança cibernética. Não
-        somos uma empresa que oferece serviços diretos de segurança; nosso papel
-        é orientar você para a escolha de uma solução confiável e certificada no
-        mercado.
+        A {SITE_TITLE} foi criada para ajudar empresas de pequeno e médio porte a
+        encontrar soluções eficazes e acessíveis de segurança cibernética. Não somos
+        uma empresa que oferece serviços diretos de segurança; nosso papel é orientar
+        você para a escolha de uma solução confiável e certificada no mercado.
     </p>
 
     <p>
@@ -42,16 +41,16 @@ import Layout from '../layouts/BlogPost.astro'
     </p>
     <h2>Aviso Legal</h2>
     <p>
-        A scan4me atua apenas como afiliada da Hostedscan, indicando seus
-        serviços com base em nossa análise independente. Não temos
-        responsabilidade direta pelo funcionamento, suporte ou resultados
-        provenientes do uso dos serviços oferecidos pela Hostedscan. A decisão
-        de aderir ao serviço é exclusivamente sua e deve ser feita com base em
-        sua própria avaliação e necessidades. Recomendamos que você revise os
-        termos e condições da Hostedscan antes de contratar qualquer serviço.
+        A {SITE_TITLE} atua apenas como afiliada da Hostedscan, indicando seus serviços
+        com base em nossa análise independente. Não temos responsabilidade direta
+        pelo funcionamento, suporte ou resultados provenientes do uso dos serviços
+        oferecidos pela Hostedscan. A decisão de aderir ao serviço é exclusivamente
+        sua e deve ser feita com base em sua própria avaliação e necessidades. Recomendamos
+        que você revise os termos e condições da Hostedscan antes de contratar qualquer
+        serviço.
     </p>
     <p>
-        scan4me tem o objetivo de servir como um ponto de apoio informativo para ajudar
-        sua empresa a tomar decisões conscientes sobre segurança cibernética.
+        {SITE_TITLE} tem o objetivo de servir como um ponto de apoio informativo
+        para ajudar sua empresa a tomar decisões conscientes sobre segurança cibernética.
     </p>
 </Layout>

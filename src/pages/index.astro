@@ -17,25 +17,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
         class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"
     >
         <Header />
-        <main class="flex flex-col justify-center">
-            <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
+        <div class="flex flex-col justify-center">
+            <div class="px-4 md:px-16 flex flex-col">
                 <h1 class="text-2xl md:text-5xl w-full">🤖 Olá humano!</h1>
-                <p class="w-full text-justify text-base md:text-lg">
-                    Na scan4me, pequenas e médias empresas vão entender soluções
-                    para se proteger contra ameaças cibernéticas.
-
-                    <p>
-                        Identificamos vulnerabilidades, monitoramento contínuo e
-                        recursos certos para manter sua empresa segura.
-                    </p>
-
-                    <p>
-                        Você não precisa ser um especialista em tecnologia ou
-                        segurança — estamos aqui para orientar e simplificar o
-                        processo. Afinal, somos humanos, não máquinas, e sabemos
-                        como tornar a cibersegurança acessível para todos.
-                    </p>
-                </p>
             </div>
             <div
                 class="w-full flex flex-col items-center gap-2.5 px-4 lg:px-0 mt-6"
@@ -44,13 +28,35 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
                     width={1020}
                     height={510}
                     src={'/banner-1.webp'}
-                    alt="scan4me"
+                    alt={SITE_TITLE}
                 />
-                <p class="italic text-xs text-gray-600 dark:text-neutral-400">
+            </div>
+            <p class="italic text-xs text-gray-600 dark:text-neutral-400"></p>
+            <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
+                <p class="w-full text-justify text-base md:text-lg mt-5">
+                    Na {SITE_TITLE}, pequenas e médias empresas vão entender
+                    soluções para se proteger contra ameaças cibernéticas.
                 </p>
+                <p>
+                    Identificamos vulnerabilidades, monitoramento contínuo e
+                    recursos certos para manter sua empresa segura.
+                </p>
+
+                <p>
+                    Você não precisa ser um especialista em tecnologia ou
+                    segurança; vamos simplificar o processo.
+                </p>
+                <p>
+                    Afinal, somos humanos, não máquinas, e sabemos como tornar a
+                    cibersegurança acessível para todos.
+                </p>
+            </div>
+            <div
+                class="w-full flex flex-col items-center gap-2.5 px-4 lg:px-0 mt-6"
+            >
                 <RecentPublications />
             </div>
             <Footer />
-        </main>
+        </div>
     </body>
 </html>
