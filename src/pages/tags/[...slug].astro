@@ -31,7 +31,7 @@ type Post = CollectionEntry<'blog'>
         <GoogleAnalytics />
         <BaseHead
             title={tag as string}
-            description={(('Posts tagged with ' + tag) as string) + '.'}
+            description={(('Artigos tagged with ' + tag) as string) + '.'}
         />
     </head>
     <body
@@ -40,7 +40,7 @@ type Post = CollectionEntry<'blog'>
         <Header />
         <main class="flex flex-col justify-center px-4">
             <h2 class="w-full font-bold text-black dark:text-white mb-8">
-                🗃️ Posts tagged with <span> {tag}</span>
+                🗃️ Artigos tagged with <span> {tag}</span>
             </h2>
             <ul>
                 {

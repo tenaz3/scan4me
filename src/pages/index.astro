@@ -19,34 +19,38 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
         <Header />
         <main class="flex flex-col justify-center">
             <div class="px-4 md:px-16 flex flex-col gap-4 md:my-10">
-                <h1 class="text-2xl md:text-5xl w-full">
-                    🧑‍🚀 Hello, Astronaut!
-                </h1>
+                <h1 class="text-2xl md:text-5xl w-full">🤖 Olá humano!</h1>
                 <p class="w-full text-justify text-base md:text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nisi officia neque eligendi nulla impedit error,
-                    consequuntur aspernatur autem id pariatur tenetur quod.
+                    Na scan4me, pequenas e médias empresas vão entender soluções
+                    para se proteger contra ameaças cibernéticas.
+
+                    <p>
+                        Identificamos vulnerabilidades, monitoramento contínuo e
+                        recursos certos para manter sua empresa segura.
+                    </p>
+
+                    <p>
+                        Você não precisa ser um especialista em tecnologia ou
+                        segurança — estamos aqui para orientar e simplificar o
+                        processo. Afinal, somos humanos, não máquinas, e sabemos
+                        como tornar a cibersegurança acessível para todos.
+                    </p>
                 </p>
             </div>
             <div
                 class="w-full flex flex-col items-center gap-2.5 px-4 lg:px-0 mt-6"
             >
                 <img
-                    src="https://images.unsplash.com/photo-1635627408144-6bf36d28fb98"
-                    alt="Astronaut"
+                    width={1020}
+                    height={510}
+                    src={'/banner-1.webp'}
+                    alt="scan4me"
                 />
                 <p class="italic text-xs text-gray-600 dark:text-neutral-400">
-                    Foto de <a
-                        href="https://unsplash.com/es/@niklasjonasson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                        >Niklas Jonasson</a
-                    > en <a
-                        href="https://unsplash.com/es/fotos/un-cuerpo-de-agua-con-arboles-en-el-fondo-j_WW0u2yYAE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                        >Unsplash</a
-                    >
                 </p>
+                <RecentPublications />
             </div>
-            <RecentPublications />
+            <Footer />
         </main>
-        <Footer />
     </body>
 </html>

@@ -16,6 +16,10 @@ A sleek and modern cybersecurity-themed banner featuring scanning tools, designe
 
 banner.webp:
 A modern and sleek banner design for a cybersecurity website named 'Scan4Me,' aimed at helping small and medium-sized businesses stay safe. The scene features a vibrant, futuristic digital landscape with abstract elements like shield icons, padlocks, and glowing network lines symbolizing protection and connectivity. The colors should primarily be blue and white with accents of green, conveying trust and security. Include subtle hints of small business elements like storefronts and laptops integrated into the design. The overall style should be clean, professional, and inviting.
+
+
+about.webp:
+A wide banner-style image depicting cybersecurity for small and medium businesses, featuring a modern office setting with diverse professionals working on computers. Overlaid holographic shields, lock icons, and digital connections represent security. The background includes a gradient from light to dark blue with an abstract world map and glowing lines symbolizing global connectivity. The text 'Scan4Me' is prominently displayed in a modern, bold font at the center, with a clean and professional design to emphasize trust and technology.
 ## Tags SEO
 ```
 vulnerability scans
@@ -52,3 +56,4 @@ free vulnerability scanning tool
 
 
 ### Q&A section
+
