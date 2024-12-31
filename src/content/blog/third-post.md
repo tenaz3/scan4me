@@ -1,17 +1,53 @@
 ---
-title: 'The Future of Renewable Energy'
-description: 'Insights into the advancements in renewable energy technologies'
+title: 'Perguntas Frequentes'
+description: 'Perguntas Frequentes / Q&A'
 pubDate: 'Jun 25 2024'
-tags: ['sustainability', 'energy', 'future']
+tags: ['q&a', 'pergunta', 'resposta', 'preço', 'plano', 'msp', 'API', 'Selenium']
 heroImage: '/blog-placeholder-2.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+## 1. Funcionalidade do Produto
+### Como posso usar o Selenium com a empresa Hostedscan?
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+    Certifique-se de que seus arquivos Selenium estão configurados corretamente para o ambiente da empresa. Se ocorrerem erros, verifique se os comandos estão alinhados com os requisitos da empresa, como configurações de tamanho de janela ou visibilidade de elementos. Use ferramentas como o CLI selenium-side-runner para testes locais.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### A plataforma suporta varredura autenticada?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+    Sim, é possível realizar varreduras autenticadas se configuradas adequadamente. Por exemplo, o OpenVAS suporta essa funcionalidade, mas as instruções específicas podem variar de acordo com o scanner. Se precisar entre em contato com o suporte para obter ajuda.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+### Posso mover Targets (alvos) entre Workspaces (áreas de trabalho)?
+
+    Atualmente, a plataforma não permite mover alvos diretamente. Considere usar a API para exportar e reimportar os alvos na área de trabalho desejada, embora os resultados das varreduras anteriores não possam ser transferidos.
+
+## 2. Assinatura
+
+### Posso fazer um upgrade do meu plano durante o ciclo?
+
+    Sim, os upgrades são permitidos. Você será cobrado de forma proporcional pelo tempo restante no plano atual, e o novo plano será aplicado imediatamente.
+
+## 3. Erros Técnicos
+### O que devo fazer se encontrar erros "element click intercepted" no Selenium?
+
+    Esse erro geralmente indica elementos sobrepostos. Ajuste o script para garantir que o elemento alvo esteja acessível e visível. Para modais, feche ou descarte-os programaticamente antes de tentar novamente.
+
+### Por que minhas varreduras estão falhando com erros de timeout?
+
+    Erros de timeout podem ocorrer se a configuração da varredura exceder os limites de recursos das ferramentas da empresa baseado no seu plano. Reduza o escopo ou a complexidade da varredura.
+
+## 4. Conformidade e Segurança
+### A plataforma é compatível com o GDPR?
+
+    Sim, a plataforma está em conformidade com o GDPR. Ela processa um volume mínimo de dados pessoais, principalmente para usuários do painel de administração. Entre em contato com a empresa para obter a documentação detalhada de conformidade.
+
+### A plataforma possui certificações como SOC ou ISO?
+
+    A plataforma está trabalhando para obter a certificação SOC Tipo II e segue os padrões ISO 27001 internamente para seu sistema de gestão de segurança da informação.
+
+## 5. Perguntas Gerais
+### Os relatórios podem ser personalizados ou brandados?
+
+    Sim, no plano MSP, você pode substituir o logotipo, nome e rodapé dos relatórios. Use as configurações no painel para configurar isso.
+
+### Vocês oferecem varredura na dark web?
+
+    Não, a plataforma se concentra em infraestrutura e varredura de vulnerabilidades, e não em serviços relacionados à dark web.
