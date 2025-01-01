@@ -3,7 +3,7 @@ title: 'Perguntas Frequentes'
 description: 'Perguntas Frequentes / Q&A'
 pubDate: 'Jun 25 2024'
 tags: ['q&a', 'pergunta', 'resposta', 'preço', 'plano', 'msp', 'API', 'Selenium']
-heroImage: '/blog-placeholder-2.jpg'
+heroImage: '/q&a-1.webp'
 ---
 
 ## 1. Funcionalidade do Produto

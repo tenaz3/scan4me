@@ -55,6 +55,7 @@ free vulnerability scanning tool
 ## Posts
 
 ### Am I secure? First impressions
+ no credit card required
 
 ### Sua seguranca em 3 passos
   - Eu corro risco ou estou seguro?
