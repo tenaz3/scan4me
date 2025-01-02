@@ -1,0 +1,94 @@
+<style>
+    .cta-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background-color: var(--background-color, #f9f9f9);
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .cta-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--text-color, #000);
+    }
+
+    .cta-description {
+        font-size: 1rem;
+        color: var(--text-muted-color, #666);
+        margin-bottom: 1.5rem;
+        max-width: 500px;
+    }
+
+    .cta-button {
+        padding: 0.75rem 1.5rem;
+        background-color: var(--button-bg-color, #0077cc);
+        color: var(--button-text-color, #fff);
+        font-size: 1rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: var(--button-bg-hover-color, #005fa3);
+    }
+
+    @media (max-width: 768px) {
+        .cta-title {
+            font-size: 1.25rem;
+        }
+
+        .cta-description {
+            font-size: 0.9rem;
+        }
+
+        .cta-button {
+            font-size: 0.9rem;
+            padding: 0.6rem 1.2rem;
+        }
+    }
+
+    :root {
+        --background-color: #f9f9f9;
+        --text-color: #000;
+        --text-muted-color: #666;
+        --button-bg-color: #0077cc;
+        --button-text-color: #fff;
+        --button-bg-hover-color: #005fa3;
+    }
+
+    [data-theme='dark'] {
+        --background-color: #2b2b2b;
+        --text-color: #e0e0e0;
+        --text-muted-color: #a0a0a0;
+        --button-bg-color: #1e90ff;
+        --button-text-color: #fff;
+        --button-bg-hover-color: #1c86ee;
+    }
+</style>
+
+<div class="cta-container">
+    <h2 class="cta-title">Agora vamos a prática!</h2>
+    <p class="cta-description">
+        Realize sua análise de risco! Você será redirecionado para o Hostedscan,
+        onde poderá criar uma conta e realizar sua análise de forma
+        prática, segura e inicialmente gratuíta.
+    </p>
+    <a
+        href="https://hostedscan.com?fpr=scan4me"
+        class="cta-button"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Veja sua análise de risco
+    </a>
+</div>
