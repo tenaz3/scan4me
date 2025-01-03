@@ -1,109 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <url>
-    <loc>https://scan4me.com.br/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/about/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/blog/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/blog/3-step-security/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/security/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/seguro/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/blog/4-scanners/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/OpenVAS/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/Nmap/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/SSLyze/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/free/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/blog/questions-and-answers/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/q&amp;a/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/pergunta/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/resposta/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/plano/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/msp/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/API/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://scan4me.com.br/tags/Selenium/</loc>
-    <lastmod>2025-01-03T18:06:47+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+
+<url>
+  <loc>https://scan4me.com.br/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/about/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/blog/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/blog/3-steps-security/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/security/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/seguro/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/blog/4-best-scanners/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/OpenVAS/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Nmap/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/SSLyze/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/free/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/blog/best-free-alternative-scanners/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/demo/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/alternative/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/gratis/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Qualys/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Nessus/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Netsparker/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Detectify/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/blog/questions-and-answers/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/q&amp;a/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/pergunta/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/resposta/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/plano/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/msp/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/API/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://scan4me.com.br/tags/Selenium/</loc>
+  <lastmod>2025-01-03T22:26:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>
