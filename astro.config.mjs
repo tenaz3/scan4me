@@ -6,7 +6,7 @@ import tailwind from '@astrojs/tailwind'
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://scan4me.com',
+    site: 'https://scan4me.com.br',
     integrations: [mdx(), sitemap(), tailwind()],
     markdown: {
         shikiConfig: {
