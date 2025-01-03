@@ -1,22 +1,22 @@
 ---
 import type { CollectionEntry } from 'astro:content'
 import BaseHead from '../components/BaseHead.astro'
+import Cta from '../components/Cta.astro'
 import Footer from '../components/Footer.astro'
 import FormattedDate from '../components/FormattedDate.astro'
 import GoogleAnalytics from '../components/GoogleAnalytics.astro'
 import Header from '../components/Header.astro'
 import TagLink from '../components/TagLink.astro'
-import Cta from '../components/Cta.astro'
 
 type Props = CollectionEntry<'blog'>['data']
 
-const { title, description, pubDate, heroImage, tags } = Astro.props
+const { title, description, pubDate, heroImage, tags, keywords } = Astro.props
 ---
 
 <html lang="en" class="dark">
     <head>
         <GoogleAnalytics />
-        <BaseHead title={title} description={description} />
+        <BaseHead title={title} description={description} keywords={keywords} />
     </head>
     <body
         class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"
@@ -42,7 +42,7 @@ const { title, description, pubDate, heroImage, tags } = Astro.props
                                 width={1020}
                                 height={510}
                                 src={heroImage}
-                                alt=""
+                                alt={title}
                             />
                         )
                     }

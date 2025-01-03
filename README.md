@@ -1,3 +1,16 @@
+### TODO
+
+Listar concorrentes
+Qualys
+Nessus Tenable
+Netsparker
+Detectify
+
+email coorporativo
+nao da pre ter uma previa do produto, no nosso afiliado consigimos ver demo account
+
+
+
 ### Dalle generate image:
 4-scanner-1.webp:
 
@@ -17,7 +30,8 @@ about.webp:
 
 A wide banner-style image depicting cybersecurity for small and medium businesses, featuring a modern office setting with diverse professionals working on computers. Overlaid holographic shields, lock icons, and digital connections represent security. The background includes a gradient from light to dark blue with an abstract world map and glowing lines symbolizing global connectivity. The text 'Scan4Me' is prominently displayed in a modern, bold font at the center, with a clean and professional design to emphasize trust and technology.
 
-
+best-scanner-alternative.webp:
+A professional and modern banner for a cybersecurity blog post, featuring a sleek and minimalist design. The banner includes a shield symbolizing security, accompanied by visuals of scanning technology or interconnected nodes to represent network vulnerability testing. The color scheme is shades of blue, gray, and white, conveying trust and reliability. Subtle accents of digital and futuristic design elements are incorporated for a clean and visually appealing layout. No text is included.
 
 ## Tags SEO
 
