@@ -4,11 +4,11 @@ import Cta from '../components/Cta.astro'
 import Footer from '../components/Footer.astro'
 import GoogleAnalytics from '../components/GoogleAnalytics.astro'
 import Header from '../components/Header.astro'
+import PostHog from '../components/posthog.astro'
 import RecentPublications from '../components/RecentPublications.astro'
 import { KEYWORDS, SITE_DESCRIPTION, SITE_TITLE } from '../consts'
 ---
 
-<!doctype html>
 <html lang="en">
     <head>
         <GoogleAnalytics />
@@ -17,6 +17,7 @@ import { KEYWORDS, SITE_DESCRIPTION, SITE_TITLE } from '../consts'
             description={SITE_DESCRIPTION}
             keywords={KEYWORDS}
         />
+        <PostHog />
     </head>
     <body
         class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"

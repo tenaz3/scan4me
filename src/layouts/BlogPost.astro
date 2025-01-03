@@ -7,6 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro'
 import GoogleAnalytics from '../components/GoogleAnalytics.astro'
 import Header from '../components/Header.astro'
 import TagLink from '../components/TagLink.astro'
+import PostHog from '../components/posthog.astro'
 
 type Props = CollectionEntry<'blog'>['data']
 
@@ -17,6 +18,7 @@ const { title, description, pubDate, heroImage, tags, keywords } = Astro.props
     <head>
         <GoogleAnalytics />
         <BaseHead title={title} description={description} keywords={keywords} />
+        <PostHog />
     </head>
     <body
         class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"
@@ -26,11 +28,6 @@ const { title, description, pubDate, heroImage, tags, keywords } = Astro.props
             <article class="px-4">
                 <div class="flex justify-between mb-6">
                     <FormattedDate date={pubDate} />
-                    <p
-                        class="text-gray-500 dark:text-neutral-400 text-xs font-medium tracking-wide"
-                    >
-                        5 min read
-                    </p>
                 </div>
                 <h1 class="text-5xl mb-8">
                     {title}
