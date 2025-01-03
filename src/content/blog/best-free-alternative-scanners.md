@@ -32,4 +32,3 @@ Testar a ferramenta antes de tomar qualquer decisão é essencial para garantir 
 
 ## Demo account sem burocracia
 A demo account é uma conta já configurada no modo Read Only para você poder entender mais o poder da ferramenta.
-

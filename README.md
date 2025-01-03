@@ -1,16 +1,5 @@
 ### TODO
 
-Listar concorrentes
-Qualys
-Nessus Tenable
-Netsparker
-Detectify
-
-email coorporativo
-nao da pre ter uma previa do produto, no nosso afiliado consigimos ver demo account
-
-
-
 ### Dalle generate image:
 4-scanner-1.webp:
 

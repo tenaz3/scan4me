@@ -1,7 +1,7 @@
 ---
 title: 'Perguntas Frequentes'
 description: 'Perguntas Frequentes / Q&A'
-pubDate: 'Jun 25 2024'
+pubDate: 'Jun 05 2025'
 tags: ['q&a', 'pergunta', 'resposta', 'preço', 'plano', 'msp', 'API', 'Selenium']
 heroImage: '/q&a-1.webp'
 keywords: 'Hostedscan funcionalidades, usar Selenium com Hostedscan, Selenium-side-runner CLI, varredura autenticada Hostedscan, OpenVAS varredura autenticada, mover Targets entre Workspaces, Hostedscan API, Hostedscan assinatura upgrade, erros técnicos Selenium, element click intercepted Selenium, varreduras falhando timeout Hostedscan, Hostedscan conformidade GDPR, Hostedscan certificações SOC ISO 27001, segurança da informação Hostedscan, Hostedscan relatórios personalizados, Hostedscan plano MSP, varredura de vulnerabilidades Hostedscan, Hostedscan suporte técnico, gestão de segurança Hostedscan, Hostedscan infraestrutura de segurança'
