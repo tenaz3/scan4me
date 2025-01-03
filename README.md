@@ -1,9 +1,3 @@
--
-## Google Analytics
-
-https://analytics.google.com/analytics/web/?authuser=0#/p466535500/reports/intelligenthome
-
-
 ### Dalle generate image:
 4-scanner-1.webp:
 
@@ -51,57 +45,3 @@ cloud vulnerability scanning (AWS, Azure, GCP)
 Nessus Tenable, Netsparker alternative
 free vulnerability scanning tool
 ```
-
-## Posts
-
-### Am I secure? First impressions
- no credit card required
-
-### Sua seguranca em 3 passos
-  - Eu corro risco ou estou seguro?
-  - Se não, o qual grave?
-  - Não sei resolver - consultoria.
-
-
-### Q&A section
-
-1. Product Functionality
-Q: How can I use Selenium with the Hosted Scan engine?
-A: Ensure your Selenium files are correctly configured for the Hosted Scan environment. If errors occur, verify that the commands align with the Hosted Scan engine's requirements, such as window size settings or element visibility. Use tools like the selenium-side-runner CLI for testing locally.
-
-Q: Does the platform support authenticated scanning?
-A: Yes, authenticated scanning is possible if configured properly. For instance, OpenVAS supports this, but specific instructions may vary by scanner. Contact support if you require assistance.
-
-Q: Can I move targets between workspaces?
-A: Currently, the platform does not support moving targets directly. Consider using the API to export and re-import targets into the desired workspace, though previous scan results cannot be transferred.
-
-2. Subscription and Billing
-Q: Why does my subscription still show "Free" even after payment?
-A: If your subscription status hasn’t updated after payment, it might be a processing delay or a system error. Provide the receipt to the support team for quick resolution.
-
-Q: Can I upgrade my plan mid-cycle?
-A: Yes, upgrades are allowed. You’ll be prorated for the remaining time on your current plan, and the new plan will be applied immediately.
-
-Q: How can I get a quote for renewal?
-A: Contact the sales team with the email address associated with your account. The renewal cost will typically match your last year’s pricing unless otherwise noted.
-
-3. Technical Errors
-Q: What should I do if I encounter "element click intercepted" errors in Selenium?
-A: This error often indicates overlapping elements. Adjust the script to ensure the target element is accessible and visible. For modal dialogs, close or dismiss them programmatically before retrying the action.
-
-Q: Why are my scans failing with timeout errors?
-A: Timeout errors may occur if the scan configuration exceeds the resource limits of the Hosted Scan engine. Reduce the scope or complexity of the scan and test locally using the recommended CLI tools.
-
-4. Compliance and Security
-Q: Is the platform GDPR compliant?
-A: Yes, the platform complies with GDPR. It processes minimal personal data, primarily for admin dashboard users. Refer to the sub-processor list provided for detailed compliance documentation.
-
-Q: Does the platform hold any certifications like SOC or ISO?
-A: The platform is working toward SOC Type II certification and follows ISO 27001 standards internally for its information security management system.
-
-5. General Queries
-Q: Can the reports be customized or white-labeled?
-A: Yes, on the MSP plan, you can replace the logo, name, and footer of the reports. Use the settings in the dashboard to configure this.
-
-Q: Do you offer dark web scanning?
-A: No, the platform focuses on infrastructure and vulnerability scanning rather than dark web services.
