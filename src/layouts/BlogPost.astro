@@ -12,6 +12,7 @@ import PostHog from '../components/posthog.astro'
 type Props = CollectionEntry<'blog'>['data']
 
 const { title, description, pubDate, heroImage, tags, keywords } = Astro.props
+
 ---
 
 <html lang="en" class="dark">
@@ -19,6 +20,14 @@ const { title, description, pubDate, heroImage, tags, keywords } = Astro.props
         <GoogleAnalytics />
         <BaseHead title={title} description={description} keywords={keywords} />
         <PostHog />
+        {tags?.map((tag) => <meta property="article:tag" content={tag} />)}
+        {
+            keywords
+                ?.split(',')
+                .map((keyword) => (
+                    <meta property="article:keyword" content={keyword} />
+                ))
+        }
     </head>
     <body
         class="w-full max-w-screen-md mx-auto my-4 dark:bg-neutral-800 dark:text-neutral-300 transition-colors duration-300"
