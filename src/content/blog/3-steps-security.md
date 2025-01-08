@@ -3,7 +3,7 @@ title: 'Sua seguranca nesses 3 passos'
 description: 'Está sua empresa segura contra ameaças cibernéticas? Descubra como avaliar riscos, identificar vulnerabilidades e proteger seus dados com estratégias eficazes de segurança.'
 pubDate: 'Jan 05 2025'
 tags: ['security', 'seguro']
-heroImage: '/3-step-security.webp'
+heroImage: '/3-steps-security.webp'
 keywords: 'risco cibernético, estou em risco ou estou seguro, segurança cibernética empresarial, avaliação de segurança cibernética, varredura de vulnerabilidades, revisão de práticas de segurança, ameaças cibernéticas, proteção contra ataques cibernéticos, como identificar vulnerabilidades, análise de risco cibernético, gestão de risco cibernético, ferramentas de segurança cibernética, configuração de firewall, exposição de dados confidenciais, vulnerabilidades de servidores, avaliação inicial de segurança, proteção de dados empresariais, como melhorar segurança cibernética, treinamento de colaboradores em segurança, priorização de riscos cibernéticos, cyber risk management'
 ---
 
